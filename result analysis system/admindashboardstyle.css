@@ -1,0 +1,138 @@
+*
+{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+}
+body{
+    background-color:black;
+}
+header
+{
+    text-align:center;
+    margin-top:20px;
+}
+header h1{
+    font-family:Merriweather, serif;
+    color:white;
+    font-size:30px;
+    letter-spacing:2px;
+    font-weight:lighter;
+    
+}
+header p{
+    font-family: Tahoma;
+    color:white;
+    font-size:15px;
+    margin-top:10px;
+}
+header .log
+{
+ float:right;
+ margin-top:-60px;
+}
+header .log img
+{
+    padding-right:30px;
+}
+.container .types
+{
+    width:70%;
+    margin:70px auto;
+    display:flex;
+    border-radius:8px;
+    box-sizing: border-box;
+}
+.container .types .box{
+    width:160px;
+    height:150px;
+    padding:14px;
+    transition: 0.6s ease-in-out;
+    position: relative;
+    display: flex;
+}
+.container .types .box:hover
+{
+   
+}
+
+.container .type
+{
+    width:70%;
+    margin:70px auto;
+    margin-top:-70px;
+    display:flex;
+}
+.container .type .box{
+    width:160px;
+    height:150px;
+    padding:14px;
+    transition: 0.6s ease-in-out;
+    background:#fff;
+    position: relative;
+    display: flex;
+}
+.container .type .box:hover
+{
+  
+}
+
+/*.box img
+{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box .info
+{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity:0;
+    transform:translate(30px);
+    transition: 0.5s all;
+}
+.box .info:hover
+{
+    opacity:1;
+    transform: translate(0px);
+}
+.box.info h1
+{
+  padding-top: 40px;
+}
+.box.info h1 p
+{  
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top:10px;
+    margin-bottom:20px
+
+}
+.bttn
+{ 
+    margin-left:100px;
+    margin-top: 20px;
+    padding: 0.5rem 1rem;
+     background: white;
+    text-align: center;
+}
+.bttn a
+{
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    text-align: center;
+}
+.box .info .bttn:hover
+{
+       box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+}*/
+

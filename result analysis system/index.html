@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Log in Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="indexstyle.css">
+    </head>
+    <body>
+        <div class="form">
+            <ul>
+                <li>
+                    <form action="indexcontroler.jsp" name="loginpage">
+                <div class="page">
+                    <div class="logo">
+                         <img src="icons/barchart.png">
+                    </div>
+                    <p>Log in</p>
+                    <div class="selections">
+                    <input type="radio" name="gender" value="Admin" ><span id="select">Admin </span><input type="radio" name="gender" value="Faculty"><span id="select">Faculty</span> <input type="radio" name="gender" value="Student"><span id="select">Student</span>
+                            
+                    </div>
+                    <br>
+                     <input type="hidden" name="page" value="adminlogin">
+                    <label>
+                        Username:
+                    </label>
+                    <br>
+                     <div class="inputs">
+                   <input type="text" name="uname" placeholder="Username">
+                     </div> 
+                   <br>
+                    <label>
+                        Password:
+                    </label>
+                    <br>
+                    <div class="inputs">
+                    <input type="password" name="pass" placeholder="Password">
+                    </div>
+                    <br>
+                    <div class="check">
+                        <input type="checkbox"><span id="pass">Show Password</span> 
+                    </div>
+                   
+                    <br>
+                    <button type="submit" name=" submit">Log In</button> 
+                    <div class="footer">
+                       <p>Designed and Developed by @Debashish Boruah</p>  
+                    </div>
+                </div>
+                   </form>
+                </li>
+                <li>
+                    <div class="left">
+                    <div class="header">
+                        <h1>Welcome to RAS</h1>
+                        <p>The Student Result Analysis System is a system that manage
+                        the student results. Viewing student data,results,marks and all
+                        the details of student like marks of a particular semester,results
+                        can be made simple and easy,so the student can access it at any point
+                        of time.
+                        </p>
+                    </div>
+                    <div class="icons">
+                        <img src="icons/loginpage.png">
+                    </div>
+                        </div>
+                </li>
+            </ul>
+            
+        </div>
+    </body>
+</html>
